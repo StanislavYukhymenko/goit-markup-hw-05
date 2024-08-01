@@ -596,9 +596,14 @@ img {
   display: block;
   margin-left: auto;
   border-radius: 100%;
+  fill: #e7e9fc;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
 }
 
 .modal-icon-btn {
+  display: flex;
+  fill: #2e2f42;
 }
 
 .modal-title {
