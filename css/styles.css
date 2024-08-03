@@ -605,6 +605,9 @@ img {
 }
 
 .subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 4px;
   background-color: rgba(77, 90, 229, 1);
   border: none;
@@ -618,6 +621,8 @@ img {
   width: 165px;
   height: 40px;
   margin-left: 16px;
+  cursor: pointer;
+  min-width: 165px;
 }
 
 .subscribe-btn-icon {
