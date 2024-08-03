@@ -805,13 +805,16 @@ img {
 .modal-checkbox-btn {
 }
 
-.modal-checkbox-btn:checked + .modal-permit span {
+.modal-checkbox-btn:checked + .modal-permit .modal-permit-span {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-permit {
@@ -830,20 +833,12 @@ img {
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
-  background-color: #404bbf;
   fill: transparent;
 }
 
 .modal-permit-icon {
-  fill: transparent;
   fill: #f4f4fd;
-  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .policy-link {
