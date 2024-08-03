@@ -702,7 +702,7 @@ img {
 }
 
 .modal-icon-btn:hover,
-.modal-icon-btn:focus {
+.modal-icon-btn:focus + use {
   fill: #ffffff;
 }
 
@@ -765,7 +765,7 @@ img {
 }
 
 .modal-comment-container {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .modal-comment {
@@ -828,7 +828,9 @@ img {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #404bbf;
