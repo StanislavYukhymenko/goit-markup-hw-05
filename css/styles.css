@@ -519,6 +519,7 @@ img {
 }
 
 .social-media-container {
+  margin-right: 80px;
 }
 
 .social-media-title {
@@ -562,6 +563,62 @@ img {
   fill: rgba(244, 244, 253, 1);
 }
 
+.subscribe-container {
+  width: 453px;
+  height: 80px;
+}
+
+.subscribe-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 16px;
+}
+
+.subscribe-input {
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+
+  width: 264px;
+  height: 40px;
+}
+
+.subscribe-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 16px;
+}
+
+.subscribe-btn {
+  border-radius: 4px;
+  background-color: rgba(77, 90, 229, 1);
+  border: none;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  width: 165px;
+  height: 40px;
+  margin-left: 16px;
+}
+
+.subscribe-btn-icon {
+  fill: #fff;
+  margin-left: 16px;
+}
+
 /* ---------------------------------------------------------------*/
 
 /* ----------------- Modal Overlay -------------------------------*/
@@ -572,6 +629,15 @@ img {
   top: 0;
   position: fixed;
   background-color: rgba(46, 47, 66, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .modal {
@@ -596,13 +662,13 @@ img {
   display: block;
   margin-left: auto;
   border-radius: 100%;
-  fill: #e7e9fc;
+  background-color: rgba(231, 233, 252, 1);
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
+  padding: 0;
 }
 
 .modal-icon-btn {
-  display: flex;
   fill: #2e2f42;
 }
 
@@ -704,4 +770,11 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
+}
+
+.policy-link {
+  line-height: 133%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: rgba(77, 90, 229, 1);
 }
