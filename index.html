@@ -485,7 +485,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay is-ope">
       <div class="modal">
         <button class="modal-closed-btn" type="button">
           <svg class="modal-icon-btn" width="8" height="8">
@@ -495,7 +495,7 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form>
           <div class="modal-field">
-            <label for="user-name">Name</label>
+            <label class="modal-label-name" for="user-name">Name</label>
             <div class="modal-field-wrap">
               <input
                 class="modal-input"
@@ -504,7 +504,7 @@
                 required
                 id="user-name"
               />
-              <svg class="modal-icon" width="12" height="12">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-frame-black"></use>
               </svg>
             </div>
@@ -519,7 +519,7 @@
                 required
                 id="user-tel"
               />
-              <svg class="modal-icon" width="13" height="13">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
@@ -534,17 +534,17 @@
                 required
                 id="user-email"
               />
-              <svg class="modal-icon" width="16" height="12">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
           </div>
           <div class="modal-field">
-            <label for="user-text">Comment</label>
+            <label for="user-coment">Comment</label>
             <textarea
               class="modal-comment"
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -552,13 +552,13 @@
             <input
               class="modal-checkbox-btn visually-hidden"
               type="checkbox"
-              name="license"
-              id="license"
-              value="license"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               checked
             />
-            <label class="modal-permit" for="license">
-              <span>
+            <label class="modal-permit" for="user-privacy">
+              <span class="modal-permit-span">
                 <svg width="10" height="8">
                   <use href="./images/icons.svg#icon-mark"></use>
                 </svg> </span
