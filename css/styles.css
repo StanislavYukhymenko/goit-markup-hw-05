@@ -660,7 +660,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
 
   top: 24px;
   right: 24px;
@@ -668,13 +667,21 @@ img {
   height: 24px;
   display: block;
   margin-left: auto;
-  border-radius: 50%;
+  border-radius: 100%;
   background-color: rgba(231, 233, 252, 1);
   cursor: pointer;
 }
 
+.modal-closed-btn:hover {
+  background-color: #404bbf;
+}
+
 .modal-icon-btn {
   fill: #2e2f42;
+}
+
+.modal-icon-btn:hover {
+  fill: #fff;
 }
 
 .modal-title {
@@ -695,6 +702,7 @@ img {
 
 .modal-field-wrap {
   position: relative;
+  margin-top: 4px;
 }
 
 .modal-input {
@@ -733,6 +741,7 @@ img {
   outline: transparent;
   background-color: transparent;
   resize: none;
+  margin-top: 4px;
 }
 
 .modal-comment::placeholder {
@@ -782,4 +791,21 @@ img {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: rgba(77, 90, 229, 1);
+}
+
+.modal-send-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  margin-top: 24px;
+  margin-left: 96px;
+  cursor: pointer;
+  display: block;
+  border: none;
+  color: #fff;
+  margin: auto;
+  margin-top: 24px;
 }
