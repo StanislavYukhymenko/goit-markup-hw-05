@@ -577,6 +577,11 @@ img {
   margin-bottom: 16px;
 }
 
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
 .subscribe-input {
   border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 4px;
