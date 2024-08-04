@@ -835,7 +835,7 @@ img {
   fill: #f4f4fd;
 }
 
-.modal-permit-span {
+.modal-permit span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
