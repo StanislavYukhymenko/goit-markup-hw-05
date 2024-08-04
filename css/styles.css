@@ -806,7 +806,7 @@ img {
 .modal-checkbox-btn {
 }
 
-.modal-checkbox-btn:checked + .modal-permit .modal-permit-span {
+.modal-checkbox-btn:checked + .modal-permit > .modal-permit-span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
