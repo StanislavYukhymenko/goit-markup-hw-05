@@ -829,7 +829,7 @@ img {
 .modal-permit + span {
 }
 
-.modal-checkbox:checked + .modal-permit + span {
+.modal-checkbox:checked + .modal-permit span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
