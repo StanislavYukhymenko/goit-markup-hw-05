@@ -806,17 +806,20 @@ img {
 .modal-checkbox-btn {
 }
 
-.modal-checkbox-btn:checked {
-  border: 1px solid rgba(46, 47, 66, 0.4);
+.modal-checkbox-btn:checked + .modal-permit .modal-permit-span {
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #f4f4fd;
   background-color: #404bbf;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-permit {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
   font-weight: 400;
@@ -826,16 +829,7 @@ img {
   color: rgba(142, 143, 153, 1);
 }
 
-.modal-permit + span {
-}
-
-.modal-checkbox:checked + .modal-permit span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
-.modal-permit span {
+.modal-permit-span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
