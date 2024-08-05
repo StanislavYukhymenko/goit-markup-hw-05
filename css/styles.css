@@ -806,7 +806,7 @@ img {
 .modal-checkbox-btn {
 }
 
-.modal-checkbox-btn:checked + .modal-permit > .modal-permit-span {
+.modal-checkbox-btn:checked + .modal-permit .modal-permit-span {
   border: none;
   fill: #f4f4fd;
   background-color: #404bbf;
