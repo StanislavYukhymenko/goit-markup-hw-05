@@ -634,6 +634,12 @@ img {
 
 /* ----------------- Modal Overlay -------------------------------*/
 
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .modal-overlay {
   width: 100%;
   height: 100%;
@@ -648,12 +654,6 @@ img {
 }
 
 .modal-overlay.visible {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -816,7 +816,7 @@ img {
 }
 
 .modal-permit-span {
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: center;
   justify-content: center;
   width: 16px;
